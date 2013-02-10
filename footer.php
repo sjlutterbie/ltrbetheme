@@ -13,15 +13,12 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<?php do_action( 'ltrbetheme_credits' ); ?>
-			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'ltrbetheme' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'ltrbetheme' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'ltrbetheme' ), 'LTRBeTheme', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+		  <p>&copy; 2013 LTRBe, Inc.</p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon .site-footer -->
 </div><!-- #page .hfeed .site -->
 
 <?php wp_footer(); ?>
-
+</div>
 </body>
 </html>

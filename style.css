@@ -437,6 +437,7 @@ Page Elements
             
         #content {
         	margin: 0 0 0 0;
+        	padding: 5px;
         }
         
       #secondary { /* Sidebar 1 */

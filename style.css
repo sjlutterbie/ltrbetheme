@@ -430,7 +430,7 @@ Page Elements
       #primary {
       	float: left;
       	margin-top: 0px;
-      	height: 517px;
+      	min-height: 517px;
       	overflow: hidden;
       	width: 719px;
       }

@@ -45,15 +45,16 @@
 
 			} // end check for categories on this blog
 
-			printf(
-				$meta_text,
-				$category_list,
-				$tag_list,
-				get_permalink(),
-				the_title_attribute( 'echo=0' )
-			);
+/*			printf(
+*				$meta_text,
+*				$category_list,
+*				$tag_list,
+*				get_permalink(),
+*				the_title_attribute( 'echo=0' )
+*			);
+*/
 		?>
 
-		<?php edit_post_link( __( 'Edit', 'ltrbetheme' ), '<span class="edit-link">', '</span>' ); ?>
+	<!--	<?php edit_post_link( __( 'Edit', 'ltrbetheme' ), '<span class="edit-link">', '</span>' ); ?> -->
 	</footer><!-- .entry-meta -->
 </article><!-- #post-<?php the_ID(); ?> -->

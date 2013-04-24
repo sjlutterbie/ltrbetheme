@@ -71,6 +71,6 @@
 		<p class="nocomments"><?php _e( 'Comments are closed.', 'ltrbetheme' ); ?></p>
 	<?php endif; ?>
 
-	<?php comment_form(); ?>
+	<?php //comment_form(); ?>
 
 </div><!-- #comments .comments-area -->
